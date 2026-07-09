@@ -6,6 +6,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # 1. Define the executable and ONLY include source files (.cpp) that exist
 add_executable(GPawn-Analyzer 
     src/main.cpp
+    src/stockfish_connection.cpp
 )
 
 # 2. Tell CMake where to find header files (like your header-only chess.hpp)
